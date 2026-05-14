@@ -14,3 +14,20 @@ CREATE TABLE loomad(
 vajuta nuppu teosta et käivitama protseduuri
 <img width="544" height="172" alt="{0C8E275E-46D6-43B3-8327-93358D16D1F4}" src="https://github.com/user-attachments/assets/276db3dd-63cf-411b-8fa1-5c4b93395c0c" />
 
+## Protseduur mis lisab  uue loomad andmeid tabelisse ja kohe kuvab neid
+<img width="584" height="367" alt="{14AC8007-F7B0-4FF3-90FF-082D29B5335A}" src="https://github.com/user-attachments/assets/accd9e72-19bf-4269-beee-d971092270a3" />
+
+<img width="571" height="320" alt="{7007A9C2-49BC-420F-8146-FB49FA6C198C}" src="https://github.com/user-attachments/assets/b30ced34-9d88-49aa-b20f-64c49bf167a5" />
+
+## Protseduur mis kustutab andmeid
+<img width="565" height="279" alt="{1AB16FC9-6899-4A47-AB88-FD7D937C10B8}" src="https://github.com/user-attachments/assets/c55c862f-1ad6-4463-afad-d2a748487cde" />
+
+<img width="315" height="220" alt="{006A950A-3EAB-49D2-B66F-DA9FC5FEAF5E}" src="https://github.com/user-attachments/assets/df3db46a-51d8-41ad-8582-d5610db1134a" />
+
+## Protseduur mis näitab andmeid with esimene täht
+<img width="548" height="269" alt="{DBFED9BB-B3B2-4AFA-9BB9-87A6CA7D25FF}" src="https://github.com/user-attachments/assets/bb120d10-1708-473d-bcc9-a01e63ba2a05" />
+
+<img width="311" height="155" alt="{ED571FE9-B8B0-4BBD-A4B6-CF9DFAB2BE60}" src="https://github.com/user-attachments/assets/97a764e9-a483-48fe-bb54-c8cae5426bc2" />
+
+
+
