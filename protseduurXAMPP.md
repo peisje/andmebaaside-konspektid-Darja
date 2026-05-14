@@ -29,5 +29,39 @@ vajuta nuppu teosta et käivitama protseduuri
 
 <img width="311" height="155" alt="{ED571FE9-B8B0-4BBD-A4B6-CF9DFAB2BE60}" src="https://github.com/user-attachments/assets/97a764e9-a483-48fe-bb54-c8cae5426bc2" />
 
+## Protseduur mis näitam maksimalne minimalne, keskmine arv, summa arv ja count loom
+<img width="637" height="439" alt="{233EB942-2051-4C4F-8D50-7AD29A416824}" src="https://github.com/user-attachments/assets/4c8045ee-87cb-4bf1-acc0-4fd1353dec4c" />
+
+<img width="309" height="104" alt="{BEE6A4BE-1323-41EC-9628-9AA2281AC3E5}" src="https://github.com/user-attachments/assets/6eed5eb8-33ab-45c3-bf37-ec654fa0bd79" />
+
+## Protseduur mis nätab kui loomad on suur või väike 
+<img width="547" height="263" alt="{C900ABBF-7951-4C96-B158-593AF79BCCD7}" src="https://github.com/user-attachments/assets/da85c4a3-7acc-4129-8d12-05e1b8ae386f" />
+
+<img width="317" height="173" alt="{58FFBCFC-D074-4858-809A-F002ABF7CE4E}" src="https://github.com/user-attachments/assets/54799eea-caf3-44e3-9cf9-c3fa3155dcaf" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
