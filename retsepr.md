@@ -214,3 +214,5 @@ GRANT SELECT, INSERT, UPDATE, DELETE ON koostis TO manager2;
 
 
 ```
+<img width="973" height="846" alt="{7B6E8C3D-6BB7-4102-BF35-D802BDD741C7}" src="https://github.com/user-attachments/assets/41cdb75b-c977-437e-90f5-dc808a9e54ff" />
+
