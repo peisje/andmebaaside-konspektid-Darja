@@ -186,5 +186,31 @@ EXEC kustutaLemmikID @id = 6;
 
 SELECT * FROM lemmikretsept;
 
+--õigused staff
+GRANT SELECT, INSERT ON toiduaine TO staff2;
+GRANT SELECT, INSERT ON kategooria TO staff2;
+
+DENY UPDATE, DELETE ON toiduaine TO staff2;
+DENY UPDATE, DELETE ON kategooria TO staff2;
+
+GRANT SELECT ON kasutaja2 TO staff2;
+DENY INSERT, UPDATE, DELETE ON kasutaja2 TO staff2;
+
+-- õigused manager
+GRANT SELECT ON kasutaja2 TO manager2;
+GRANT SELECT ON kategooria TO manager2;
+GRANT SELECT ON yhik TO manager2;
+GRANT SELECT ON tehtud TO manager2;
+GRANT SELECT ON lemmikretsept TO manager2;
+GRANT SELECT ON toiduaine TO manager2;
+
+DENY INSERT, UPDATE, DELETE ON toiduaine TO manager2;
+DENY INSERT, UPDATE, DELETE ON kasutaja2 TO manager2;
+
+GRANT SELECT, INSERT, UPDATE, DELETE ON retsept TO manager2;
+GRANT SELECT, INSERT, UPDATE, DELETE ON koostis TO manager2;
+
+
+
 
 ```
