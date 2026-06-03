@@ -1,4 +1,7 @@
-## Andmebaasid
+## Andmebaaside konspektid | Darja 
+
+[Põhimõisted](README.md). | [Ptotseduurid](protseduur.md).
+
 andmebaasidega seotud SQL kood ja konspektid
 ## Sisukord
 - [Põhimõisted](#põhimõisted)
