@@ -148,6 +148,10 @@ SELECT * FROM logi;
 --kasutaja dasasekretar õigused - lisamine, kustutamine ja ueendamine tabelis linnad,
 --ei näe tabeli logi ja ei saa muuta trigerid
 
+GRANT SELECT, INSERT, UPDATE, DELETE ON linnad TO dasasekretar;
+DENY SELECT ON logi TO dasasekretar;
+
+DENY ALTER ANY DATABASE DDL TRIGGER TO dasasekretar;
 ```
 
 
