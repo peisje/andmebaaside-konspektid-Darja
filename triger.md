@@ -109,7 +109,46 @@ SELECT * FROM logi;
 ```
 <img width="875" height="324" alt="{CA673345-A587-4D4E-9244-A5668340C7DE}" src="https://github.com/user-attachments/assets/200fb3a9-6bd9-48d3-9977-9d03360c90bc" />
 
+```sql
+DISABLE TRIGGER linnaLisamine ON linnad;
+DISABLE TRIGGER linnaKustutamine ON linnad;
 
+--kombineerime insert ja delete triger
+CREATE TRIGGER linnaLisaKustut
+ON linnad --tabelinimi, mis on vaja jälgida
+FOR DELETE, INSERT
+AS
+BEGIN
+	INSERT INTO logi(kasutaja, aeg, toiming, andmed)
+	SELECT
+	SYSTEM_USER, --kasutaja
+	GETDATE(),  --aeg
+	'on tehtud DELETE käsk',  --toiming
+	CONCAT ('linn: ',deleted.linnanimi, ' rahvaarv: ', deleted.rahvaarv)  --andmed
+	FROM deleted
+
+	UNION ALL 
+
+	SELECT
+	SYSTEM_USER, --kasutaja
+	GETDATE(),  --aeg
+	'on tehtud INSERT käsk',  --toiming
+	CONCAT ('linn: ',inserted.linnanimi, ' rahvaarv: ', inserted.rahvaarv)  --andmed
+	FROM inserted;
+END;
+
+INSERT INTO linnad(linnanimi, rahvaarv)
+VALUES ('yallinn', 650000);
+
+DELETE FROM linnad WHERE linnID=2;
+
+SELECT * FROM linnad;
+SELECT * FROM logi;
+
+--kasutaja dasasekretar õigused - lisamine, kustutamine ja ueendamine tabelis linnad,
+--ei näe tabeli logi ja ei saa muuta trigerid
+
+```
 
 
 
