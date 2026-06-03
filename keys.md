@@ -1,5 +1,8 @@
 # Andmebaasi võtmed (Keys)
 
+[Põhimõisted](README.md) | [Ptotseduurid](protseduur.md) | [Ptotseduurid-XAMPP](protseduurXAMPP.md) | [kasutajad](kasutaja.md) | [kasutajad-XAMPP](kasutajaXAMPP.md) | [trigerid](triger.md) | 
+[kodutöö-keys](keys.md) | [hotelli-ruum](hotelliruum.md) | [DML-küsimused](kysimused.md) | [DDL-küsimused](kysimused2.md) | [retsept](retsepr.md) |
+
 ## 1. Primary Key (Primaarvõti)
 * **Lühike definitsioon:** Veerg või veergude kogum, mis tuvastab üheselt iga rea tabelis.
 * **Milleks kasutatakse:** Kirjete unikaalsuse tagamiseks ja kiireks otsinguks. Ei saa sisaldada NULL väärtusi.
