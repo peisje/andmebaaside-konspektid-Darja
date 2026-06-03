@@ -1,7 +1,5 @@
 ## kasutajad XAMPP
 
-[Põhimõisted](README.md) | [Ptotseduurid](protseduur.md) | [Ptotseduurid-XAMPP](protseduurXAMPP.md) | [kasutajad](kasutaja.md) | [kasutajad-XAMPP](kasutajadXAMPP.md) | [trigerid](triger.md) | 
-[kodutöö-keys](keys.md) | [hotelli-ruum](hotelliruum.md) | [DML-küsimused](kysimused.md) | [DDL-küsimused](kysimused2.md) | [retsept](retsepr.md) |
 
 <img width="706" height="814" alt="{9EA7D095-83B8-4FCD-9662-4373AA9F3798}" src="https://github.com/user-attachments/assets/4f7a195d-0216-49a0-801e-0af2a4115040" />
 
