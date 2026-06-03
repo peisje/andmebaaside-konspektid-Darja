@@ -1,6 +1,8 @@
 ## Andmebaaside konspektid | Darja 
 
-[Põhimõisted](README.md). | [Ptotseduurid](protseduur.md). | [kasutajad](kasutaja.md). | [trigerid](triger.md). | [kodutöö-keys](keys.md)
+[Põhimõisted](README.md). | [Ptotseduurid](protseduur.md). | [Ptotseduurid-XAMPP](protseduurXAMPP.md). | [kasutajad](kasutaja.md). [kasutajad-XAMPP](kasutajaXAMPP.md). | [trigerid](triger.md). | [kodutöö-keys](keys.md)
+[hotelli-ruum](). | [DML-küsimused](kysimused.md). | [DDL-küsimused](kysimused2.md). | [retsep](retsept.md). |
+
 
 andmebaasidega seotud SQL kood ja konspektid
 ## Sisukord
